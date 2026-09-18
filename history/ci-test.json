@@ -1,0 +1,4906 @@
+{
+ "version": 1,
+ "updatedAt": "2026-09-18T10:27:14.444Z",
+ "runs": 74,
+ "runDurations": [
+  30125,
+  24442,
+  26027,
+  26599,
+  26582,
+  19822,
+  26697,
+  21683,
+  29310,
+  28731
+ ],
+ "tests": {
+  "test/analyze.test.ts › verdicts > flags failures without history as new": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    3,
+    4,
+    2,
+    3,
+    3,
+    2,
+    4,
+    4,
+    3,
+    4
+   ],
+   "lastRun": 74
+  },
+  "test/analyze.test.ts › verdicts > does not blame flakiness for an old, fixed breakage": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/analyze.test.ts › verdicts > flags one or two isolated failures as suspect": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/analyze.test.ts › verdicts > flags repeated isolated failures as flaky": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/analyze.test.ts › verdicts > flags tests passing after retries or re-runs as flaky": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/analyze.test.ts › verdicts > ignores expired evidence": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/analyze.test.ts › verdicts > flags tests failing on the tracked branch as broken": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/analyze.test.ts › analyze > counts outcomes and sorts failures by how actionable they are": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/analyze.test.ts › analyze > filters tolerated verdicts": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/analyze.test.ts › helpers > counts isolated failures only when surrounded by passes": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/analyze.test.ts › helpers > counts trailing failures": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/analyze.test.ts › helpers > ranks the most unreliable tests": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/dist.test.ts › dist/index.js > runs as a standalone action and records history": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    166,
+    222,
+    185,
+    213,
+    213,
+    244,
+    217,
+    194,
+    219,
+    230
+   ],
+   "lastRun": 74
+  },
+  "test/git-store.test.ts › GitStore > reads nothing when the branch does not exist": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    42,
+    32,
+    24,
+    32,
+    35,
+    19,
+    32,
+    22,
+    27,
+    29
+   ],
+   "lastRun": 74
+  },
+  "test/git-store.test.ts › GitStore > creates the branch as a single bot commit and reads it back": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    166,
+    196,
+    161,
+    195,
+    195,
+    129,
+    194,
+    156,
+    193,
+    201
+   ],
+   "lastRun": 74
+  },
+  "test/git-store.test.ts › GitStore > keeps files written by other keys": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    234,
+    198,
+    155,
+    199,
+    194,
+    116,
+    201,
+    165,
+    373,
+    199
+   ],
+   "lastRun": 74
+  },
+  "test/git-store.test.ts › GitStore > skips the push when the update returns undefined": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    15,
+    26,
+    20,
+    25,
+    24,
+    13,
+    25,
+    20,
+    291,
+    25
+   ],
+   "lastRun": 74
+  },
+  "test/git-store.test.ts › GitStore > does not lose concurrent updates": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1451,
+    960,
+    1093,
+    1021,
+    2109,
+    710,
+    791,
+    1183,
+    2007,
+    1260
+   ],
+   "lastRun": 74
+  },
+  "test/git-store.test.ts › GitStore > fails fast on errors that retrying cannot fix": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    50,
+    25,
+    18,
+    25,
+    23,
+    36,
+    28,
+    20,
+    24,
+    27
+   ],
+   "lastRun": 74
+  },
+  "test/history.test.ts › recordRun > appends outcomes on tracked branches and keeps a bounded window": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/history.test.ts › recordRun > ignores skipped tests": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/history.test.ts › recordRun > only remembers failures and flakiness off tracked branches": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/history.test.ts › recordRun > reports no change when an untracked run teaches nothing": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/history.test.ts › recordRun > records a failure then a pass on the same commit as rerun evidence, once": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    2,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/history.test.ts › recordRun > does not treat a pass on another commit as evidence": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/history.test.ts › recordRun > records in-run retries as evidence": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/history.test.ts › recordRun > forgets tests and evidence older than the retention period": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/history.test.ts › parseHistory > round-trips serialized history": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2
+   ],
+   "lastRun": 74
+  },
+  "test/history.test.ts › parseHistory > starts fresh on missing, corrupt or incompatible data": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/junit.test.ts › parseJUnit > reads jest-junit reports": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    4,
+    6,
+    4,
+    4,
+    5,
+    4,
+    5,
+    5,
+    5,
+    5
+   ],
+   "lastRun": 74
+  },
+  "test/junit.test.ts › parseJUnit > reads pytest reports, treating errors as failures": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/junit.test.ts › parseJUnit > reads go-junit-report output without duplicating the package name": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/junit.test.ts › parseJUnit > detects retries reported as repeated test cases (gotestsum --rerun-fails)": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/junit.test.ts › parseJUnit > detects Maven Surefire flakyFailure and keeps rerunFailure as failed": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/junit.test.ts › parseJUnit > detects cargo-nextest retries": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/junit.test.ts › parseJUnit > does not mistake Playwright projects for retries": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/junit.test.ts › parseJUnit > reads vitest reports": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/junit.test.ts › parseJUnit > ignores test cases without a name and handles a bare testcase root": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/junit.test.ts › parseJUnit > truncates very long messages": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    2,
+    1,
+    2,
+    2,
+    1,
+    2,
+    1,
+    1,
+    2
+   ],
+   "lastRun": 74
+  },
+  "test/junit.test.ts › combineReports > keeps the worst outcome when a test appears in several reports": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/main.test.ts › run > learns from main, then tells a pull request which failures are its fault": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    2536,
+    2298,
+    1859,
+    2326,
+    2299,
+    2432,
+    2326,
+    1863,
+    2269,
+    2476
+   ],
+   "lastRun": 74
+  },
+  "test/main.test.ts › run > stays quiet on green pull requests without a previous comment": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    25,
+    29,
+    22,
+    27,
+    26,
+    17,
+    26,
+    22,
+    26,
+    28
+   ],
+   "lastRun": 74
+  },
+  "test/main.test.ts › run > does not record or fail the job on pull requests from forks": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    26,
+    27,
+    20,
+    25,
+    24,
+    16,
+    24,
+    20,
+    24,
+    26
+   ],
+   "lastRun": 74
+  },
+  "test/main.test.ts › run > fails when no report matches": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    8,
+    8,
+    6,
+    8,
+    7,
+    5,
+    7,
+    5,
+    7,
+    7
+   ],
+   "lastRun": 74
+  },
+  "test/main.test.ts › run > rejects invalid inputs": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    6,
+    7,
+    5,
+    7,
+    6,
+    4,
+    6,
+    5,
+    6,
+    7
+   ],
+   "lastRun": 74
+  },
+  "test/main.test.ts › run > keeps working when the history cannot be read": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    25,
+    28,
+    23,
+    27,
+    27,
+    18,
+    26,
+    22,
+    26,
+    27
+   ],
+   "lastRun": 74
+  },
+  "test/main.test.ts › findFiles > expands globs and skips node_modules and .git": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    8,
+    10,
+    8,
+    9,
+    9,
+    6,
+    9,
+    7,
+    9,
+    9
+   ],
+   "lastRun": 74
+  },
+  "test/main.test.ts › sanitizeKey > produces safe file names": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    6,
+    7,
+    5,
+    7,
+    6,
+    37,
+    6,
+    5,
+    7,
+    7
+   ],
+   "lastRun": 74
+  },
+  "test/report.test.ts › renderComment > starts with the marker and explains every verdict": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    4,
+    5,
+    3,
+    4,
+    8,
+    3,
+    5,
+    6,
+    6,
+    6
+   ],
+   "lastRun": 74
+  },
+  "test/report.test.ts › renderComment > escapes HTML and table separators coming from test output": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/report.test.ts › renderComment > reassures when no failure looks related to the change": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/report.test.ts › renderComment > tells proven flakiness apart from a probable one": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/report.test.ts › renderComment > celebrates green runs": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/report.test.ts › renderComment > explains the quarantine decision": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/report.test.ts › renderComment > mentions an empty history": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/report.test.ts › renderSummary > adds the ranking of unreliable tests": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/xml.test.ts › decodeEntities > decodes named, decimal and hexadecimal entities": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    2,
+    3,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    3,
+    3
+   ],
+   "lastRun": 74
+  },
+  "test/xml.test.ts › decodeEntities > leaves unknown or invalid entities untouched": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/xml.test.ts › parseXml > builds a tree with attributes, text and self-closing tags": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    2,
+    1,
+    1,
+    1,
+    1,
+    2,
+    1,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/xml.test.ts › parseXml > keeps CDATA verbatim and skips comments, DOCTYPE and a BOM": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    1,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/xml.test.ts › parseXml > handles '>' inside attribute values and whitespace around '='": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/xml.test.ts › parseXml > tolerates unclosed and mismatched tags": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/xml.test.ts › parseXml > does not hang on truncated input": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    2,
+    1,
+    2,
+    1,
+    1,
+    2,
+    1,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › documentation links > resolves every relative link in README.md": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    6,
+    7,
+    6,
+    7,
+    7,
+    4,
+    8,
+    7,
+    7,
+    7
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › documentation links > resolves every relative link in CONTRIBUTING.md": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › documentation links > resolves every relative link in SECURITY.md": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › documentation links > resolves every relative link in CHANGELOG.md": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › documentation links > resolves every relative link in docs/README.md": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    1,
+    1,
+    2,
+    2,
+    1,
+    2,
+    2,
+    2,
+    2
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › documentation links > resolves every relative link in docs/configuration.md": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    7,
+    11,
+    9,
+    12,
+    12,
+    5,
+    12,
+    10,
+    11,
+    10
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › documentation links > resolves every relative link in docs/faq.md": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    2,
+    2
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › documentation links > resolves every relative link in docs/getting-started.md": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › documentation links > resolves every relative link in docs/how-it-works.md": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    2,
+    3,
+    2,
+    3,
+    3,
+    2,
+    4,
+    3,
+    3,
+    3
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › documentation links > resolves every relative link in docs/quarantine.md": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    1,
+    1,
+    1,
+    2,
+    1,
+    1,
+    2,
+    4,
+    2
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › documentation links > resolves every relative link in docs/recipes.md": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › documentation links > resolves every relative link in docs/security.md": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    2,
+    1,
+    2,
+    3,
+    1,
+    2,
+    2,
+    2,
+    3
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › documentation links > resolves every relative link in docs/test-runners.md": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › documentation links > resolves every relative link in docs/troubleshooting.md": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    2,
+    4,
+    3,
+    3,
+    4,
+    1,
+    3,
+    3,
+    4,
+    4
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › documentation links > resolves every relative link in docs/verdicts.md": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    2,
+    3,
+    2,
+    2,
+    2,
+    1,
+    3,
+    3,
+    2,
+    3
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › documentation links > lists every docs page in the documentation index": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    1,
+    1,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › action.yml > reads and documents the junit input": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › action.yml > reads and documents the mode input": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › action.yml > reads and documents the tolerate input": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › action.yml > reads and documents the token input": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › action.yml > reads and documents the history-branch input": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › action.yml > reads and documents the track-branches input": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › action.yml > reads and documents the key input": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › action.yml > reads and documents the comment input": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › action.yml > reads and documents the record input": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › action.yml > reads and documents the window input": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › action.yml > sets and documents the total output": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › action.yml > sets and documents the failed output": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › action.yml > sets and documents the new-failures output": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › action.yml > sets and documents the flaky-failures output": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › action.yml > sets and documents the broken-failures output": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › action.yml > sets and documents the retried output": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › action.yml > sets and documents the blocking output": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/report.test.ts › renderComment > renders test names and messages as plain text, without Markdown": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/wiki.test.ts › pageName > turns the index into Home and names other pages after their title": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    2,
+    4,
+    2,
+    3,
+    4,
+    2,
+    3,
+    4,
+    3,
+    2
+   ],
+   "lastRun": 74
+  },
+  "test/wiki.test.ts › rewriteLinks > points links to other docs pages at wiki pages, keeping anchors": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/wiki.test.ts › rewriteLinks > points links leaving docs/ at the repository": {
+   "outcomes": "ppp",
+   "lastSeen": "2026-09-16"
+  },
+  "test/wiki.test.ts › rewriteLinks > leaves absolute links, anchors, titles and code blocks alone": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/wiki.test.ts › buildWiki > names pages after their title, drops the duplicate heading, adds a sidebar and a footer": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    2,
+    1,
+    2,
+    2,
+    1,
+    2,
+    2,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/wiki.test.ts › buildWiki > converts the real documentation without leaving relative .md links": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    13,
+    21,
+    16,
+    17,
+    21,
+    15,
+    22,
+    21,
+    16,
+    15
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › documentation links > resolves every relative link in CODE_OF_CONDUCT.md": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › documentation links > resolves every relative link in brand/README.md": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    3,
+    2,
+    2,
+    3,
+    3,
+    2,
+    3,
+    1,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/wiki.test.ts › rewriteLinks > points links leaving docs/ at the repository, and images at their raw file": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/wiki.test.ts › rewriteLinks > rewrites src, srcset and href attributes of HTML tags": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/report.test.ts › renderComment > points badges at images of this repository": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/analyze.test.ts › analyze > reports passing tests that are failing on the tracked branch as fixed": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › action.yml > sets and documents the fixed output": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/main.test.ts › run > comments on a pull request that fixes a test failing on main": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1795,
+    555,
+    433,
+    516,
+    507,
+    366,
+    653,
+    424,
+    489,
+    575
+   ],
+   "lastRun": 74
+  },
+  "test/report.test.ts › renderComment > lists the tests the run fixes": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/site.test.ts › site > resolves every local file used by index.html": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    2,
+    3,
+    3,
+    4,
+    3,
+    2,
+    4,
+    4,
+    4,
+    4
+   ],
+   "lastRun": 74
+  },
+  "test/site.test.ts › site > resolves every local file used by 404.html": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/site.test.ts › site > resolves every local file used by style.css": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/site.test.ts › site > links to anchors that exist": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/site.test.ts › site > uses no inline style or script, which the content security policy blocks": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/analyze.test.ts › errors never seen on the tracked branch > keep excusing a test failing with a known error": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    4,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/analyze.test.ts › errors never seen on the tracked branch > turn a flaky, suspect or already failing test into a new failure": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    1,
+    1,
+    2,
+    2,
+    1,
+    2,
+    1,
+    1,
+    2
+   ],
+   "lastRun": 74
+  },
+  "test/analyze.test.ts › errors never seen on the tracked branch > cannot be told without recorded errors or a message": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/history.test.ts › errorFingerprint > ignores case, spacing, numbers and hexadecimal ids": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    3,
+    6,
+    2,
+    3,
+    4,
+    1,
+    3,
+    3,
+    3,
+    3
+   ],
+   "lastRun": 74
+  },
+  "test/history.test.ts › errorFingerprint > tells different errors apart": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    3,
+    1,
+    1,
+    1,
+    1,
+    2,
+    1,
+    1,
+    2
+   ],
+   "lastRun": 74
+  },
+  "test/history.test.ts › errorFingerprint > is a short hash, not the message": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/history.test.ts › recordRun > remembers the errors of failures and retries on tracked branches only": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/history.test.ts › recordRun > keeps the 10 most recent errors": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    2,
+    2,
+    1,
+    2,
+    2,
+    1,
+    2,
+    2,
+    2,
+    2
+   ],
+   "lastRun": 74
+  },
+  "test/main.test.ts › run > does not excuse a flaky test failing with an error never seen on main": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    2773,
+    1777,
+    1394,
+    1815,
+    1720,
+    975,
+    1760,
+    1405,
+    2599,
+    1832
+   ],
+   "lastRun": 74
+  },
+  "test/report.test.ts › renderComment > explains failures that are new because of their error": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    10,
+    11,
+    8,
+    9,
+    12,
+    7,
+    11,
+    9,
+    18,
+    11
+   ],
+   "lastRun": 74
+  },
+  "test/analyze.test.ts › failure streaks of flaky tests > need to be too long to be bad luck": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    3,
+    3,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/analyze.test.ts › failure streaks of flaky tests > need 3 failures for a flaky test that rarely fails on the tracked branch": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    1,
+    2,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    3
+   ],
+   "lastRun": 74
+  },
+  "test/analyze.test.ts › failure streaks of flaky tests > never need more than 10 failures": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/analyze.test.ts › failure streaks of flaky tests > have a length that grows with the failure rate": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/report.test.ts › renderComment > explains why a flaky test counts as already failing": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/actions.test.ts › ActionIO > escapes the properties and the message of annotations": {
+   "outcomes": "ppppppppppppppppppp",
+   "lastSeen": "2026-09-16",
+   "durations": [
+    3,
+    2,
+    3,
+    3,
+    2,
+    2,
+    3,
+    2,
+    2,
+    2
+   ],
+   "lastRun": 34
+  },
+  "test/docs.test.ts › action.yml > reads and documents the annotations input": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/junit.test.ts › location hints > are collected for failed tests only": {
+   "outcomes": "ppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-17",
+   "durations": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "lastRun": 48
+  },
+  "test/junit.test.ts › location hints > read the file and line attributes of the test case, or the file of its suite": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/junit.test.ts › location hints > find file:line references in the failure output": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/locate.test.ts › locate > uses the file and line attributes": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    2,
+    4,
+    2,
+    3,
+    3,
+    2,
+    4,
+    4,
+    3,
+    3
+   ],
+   "lastRun": 74
+  },
+  "test/locate.test.ts › locate > recognizes class and suite names that are files, modules or classes": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/locate.test.ts › locate > falls back to the first reference to a file of the workspace": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/locate.test.ts › locate > ignores files outside the workspace, in node_modules or missing": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/main.test.ts › run > annotates failed tests it finds in the workspace, unless told not to": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    461,
+    493,
+    420,
+    514,
+    492,
+    501,
+    480,
+    374,
+    501,
+    497
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › action.yml > reads and documents the suites input": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/main.test.ts › run > reports several suites, each with its own history, in one comment": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    856,
+    975,
+    953,
+    1021,
+    973,
+    856,
+    946,
+    744,
+    944,
+    961
+   ],
+   "lastRun": 74
+  },
+  "test/main.test.ts › run > rejects suites that are malformed or mixed with junit and key": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    7,
+    8,
+    7,
+    8,
+    7,
+    5,
+    7,
+    6,
+    7,
+    8
+   ],
+   "lastRun": 74
+  },
+  "test/report.test.ts › several suites > share one headline, then get a section each": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2,
+    2
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › action.yml > reads and documents the flaky-issues input": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/flaky-issues.test.ts › planFlakyIssues > opens an issue for each test proven flaky that failed in the last 30 days": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    5,
+    7,
+    5,
+    2,
+    3,
+    1,
+    2,
+    2,
+    3,
+    2
+   ],
+   "lastRun": 74
+  },
+  "test/flaky-issues.test.ts › planFlakyIssues > opens at most 5 issues per run": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/flaky-issues.test.ts › planFlakyIssues > updates an open issue only when its test fails, with the latest failure": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2
+   ],
+   "lastRun": 74
+  },
+  "test/flaky-issues.test.ts › planFlakyIssues > reopens a closed issue when its test fails again, and leaves it closed otherwise": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/flaky-issues.test.ts › planFlakyIssues > closes an issue after 30 days without a failure": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/flaky-issues.test.ts › planFlakyIssues > closes the issue of a test that left the history, only for the suites of the run": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    2
+   ],
+   "lastRun": 74
+  },
+  "test/flaky-issues.test.ts › planFlakyIssues > says when a flaky test fails too many runs in a row": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    3,
+    0,
+    0,
+    0,
+    1,
+    0,
+    1,
+    0,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/history.test.ts › recordRun > remembers the last day a test failed or needed a retry on a tracked branch": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    2,
+    2,
+    2,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/main.test.ts › run > opens, updates and closes an issue per flaky test when asked": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    568,
+    640,
+    629,
+    677,
+    624,
+    401,
+    628,
+    500,
+    630,
+    647
+   ],
+   "lastRun": 74
+  },
+  "test/main.test.ts › run > warns and carries on when issues cannot be written": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    198,
+    230,
+    202,
+    244,
+    225,
+    176,
+    227,
+    178,
+    229,
+    238
+   ],
+   "lastRun": 74
+  },
+  "test/analyze.test.ts › slower tests > take at least twice their median duration, and 500 ms more": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    1,
+    2,
+    2
+   ],
+   "lastRun": 74
+  },
+  "test/analyze.test.ts › slower tests > are ranked by median duration for the summary": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    2,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    2
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › action.yml > sets and documents the slower output": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/history.test.ts › recordRun > keeps the durations of the last 10 runs on tracked branches": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/junit.test.ts › durations > are read from the time attribute, in milliseconds": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/report.test.ts › renderComment > lists passing tests that got much slower": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/report.test.ts › renderComment > formats durations in the unit that reads best": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/report.test.ts › renderSummary > lists the slowest tests in the summary": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    2,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › action.yml > reads and documents the quarantine input": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › action.yml > sets and documents the quarantined output": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/main.test.ts › run > never blocks on tests quarantined by hand, until their date": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    211,
+    237,
+    206,
+    247,
+    228,
+    144,
+    248,
+    181,
+    234,
+    236
+   ],
+   "lastRun": 74
+  },
+  "test/quarantine.test.ts › parseQuarantine > reads a date, a test name and an optional reason per line": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    2,
+    4,
+    2,
+    3,
+    3,
+    2,
+    4,
+    2,
+    3,
+    4
+   ],
+   "lastRun": 74
+  },
+  "test/quarantine.test.ts › parseQuarantine > rejects lines without a valid date or a test name": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    2,
+    1,
+    2,
+    1,
+    1,
+    4,
+    1,
+    1,
+    2
+   ],
+   "lastRun": 74
+  },
+  "test/quarantine.test.ts › quarantine entries > apply until the end of their last day, in UTC": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/quarantine.test.ts › quarantine entries > match a test title or identity, with * as a wildcard": {
+   "outcomes": "p",
+   "lastSeen": "2026-09-16",
+   "durations": [
+    1
+   ]
+  },
+  "test/quarantine.test.ts › quarantine entries > mark the failures they cover, only while active": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    9,
+    11,
+    6,
+    11,
+    10,
+    8,
+    14,
+    8,
+    8,
+    11
+   ],
+   "lastRun": 74
+  },
+  "test/report.test.ts › renderComment > says which failures are quarantined by hand": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/quarantine.test.ts › quarantine entries > match a test title or identity, or their end, with * as a wildcard": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    2,
+    1,
+    1,
+    1,
+    1,
+    2,
+    1,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/analyze.test.ts › failure trends > give the share of failed runs among the last 10, run after run": {
+   "outcomes": "ppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/report.test.ts › renderSummary > charts the failure rate of the most unreliable tests in the summary": {
+   "outcomes": "ppppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/badge.test.ts › badge > counts known and probably flaky tests, in the shields.io endpoint format": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    3,
+    4,
+    3,
+    5,
+    5,
+    3,
+    5,
+    4,
+    6,
+    5
+   ],
+   "lastRun": 74
+  },
+  "test/git-store.test.ts › GitStore > writes files derived from the new content in the same commit": {
+   "outcomes": "p",
+   "lastSeen": "2026-09-16",
+   "durations": [
+    66
+   ]
+  },
+  "test/git-store.test.ts › GitStore > writes files derived from the new content and the existing paths in the same commit": {
+   "outcomes": "ppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    144,
+    175,
+    146,
+    168,
+    169,
+    101,
+    169,
+    131,
+    166,
+    169
+   ],
+   "lastRun": 74
+  },
+  "test/html-report.test.ts › renderSuitePage > lists unreliable tests, most unreliable first, and only counts stable ones": {
+   "outcomes": "ppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    3,
+    5,
+    3,
+    5,
+    4,
+    2,
+    5,
+    4,
+    4,
+    4
+   ],
+   "lastRun": 74
+  },
+  "test/html-report.test.ts › renderSuitePage > says when no test failed": {
+   "outcomes": "ppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/html-report.test.ts › renderIndexPage > links to the page of each key": {
+   "outcomes": "ppppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    1,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/main.test.ts › run > flags runs where only flaky tests failed, for a workflow re-running them": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1572,
+    1214,
+    3012,
+    1300,
+    1205,
+    1711,
+    1214,
+    961,
+    1232,
+    1263
+   ],
+   "lastRun": 74
+  },
+  "test/flaky-issues.test.ts › planFlakyIssues > moves the issue of a renamed test to its new name": {
+   "outcomes": "ppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/main.test.ts › run > follows a renamed test on the tracked branch only": {
+   "outcomes": "ppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    456,
+    514,
+    2931,
+    534,
+    497,
+    316,
+    506,
+    400,
+    506,
+    539
+   ],
+   "lastRun": 74
+  },
+  "test/renames.test.ts › detectRenames > follows one test replaced by a similar one in the same file": {
+   "outcomes": "ppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    2,
+    4,
+    3,
+    4,
+    4,
+    3,
+    3,
+    4,
+    4,
+    4
+   ],
+   "lastRun": 74
+  },
+  "test/renames.test.ts › detectRenames > leaves alone dissimilar names, several candidates, other files and older tests": {
+   "outcomes": "ppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    0,
+    1,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/renames.test.ts › detectRenames > does nothing on the first run, and ignores skipped tests": {
+   "outcomes": "ppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/renames.test.ts › detectRenames > treats a test only remembered from pull requests as new": {
+   "outcomes": "ppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/renames.test.ts › applyRenames > moves the history, merging what pull requests remembered about the new name": {
+   "outcomes": "ppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    6,
+    15,
+    1,
+    2,
+    2,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/renames.test.ts › similarity > goes from 0 to 1 with the edit distance": {
+   "outcomes": "ppppppppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/dist.test.ts › dist/notmyfault.mjs > runs in a GitLab CI/CD job": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    246,
+    218,
+    176,
+    217,
+    208,
+    153,
+    203,
+    189,
+    206,
+    216
+   ],
+   "lastRun": 74
+  },
+  "test/dist.test.ts › dist/notmyfault.mjs > refuses to run outside of a CI system it knows": {
+   "outcomes": "ppppppppppppppppppppppp",
+   "lastSeen": "2026-09-17",
+   "durations": [
+    51,
+    53,
+    45,
+    56,
+    55,
+    50,
+    38,
+    40,
+    55,
+    52
+   ],
+   "lastRun": 57
+  },
+  "test/github/io.test.ts › ActionIO > escapes the properties and the message of annotations": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    2,
+    3,
+    2,
+    2,
+    2,
+    1,
+    3,
+    2,
+    2,
+    2
+   ],
+   "lastRun": 74
+  },
+  "test/gitlab/context.test.ts › readGitLabContext > reads a branch pipeline": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    2,
+    4,
+    2,
+    3,
+    2,
+    2,
+    4,
+    3,
+    3,
+    3
+   ],
+   "lastRun": 74
+  },
+  "test/gitlab/context.test.ts › readGitLabContext > reads a merge request pipeline, from the project or a fork": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/gitlab/context.test.ts › readGitLabContext > has no branch on tag pipelines": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/gitlab/context.test.ts › readGitLabContext > needs the variables of a job": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/gitlab/io.test.ts › GitLabIO > reads inputs from NOTMYFAULT_ variables": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    2,
+    5,
+    3,
+    4,
+    4,
+    3,
+    4,
+    5,
+    3,
+    5
+   ],
+   "lastRun": 74
+  },
+  "test/gitlab/io.test.ts › GitLabIO > writes outputs as dotenv, the summary as Markdown and annotations as Code Quality issues": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    2,
+    3,
+    2,
+    3,
+    2,
+    2,
+    3,
+    3,
+    2,
+    3
+   ],
+   "lastRun": 74
+  },
+  "test/gitlab/io.test.ts › GitLabIO > starts a new summary on each run": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/gitlab/io.test.ts › GitLabIO > colors warnings and errors and folds groups into collapsed sections": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    2,
+    1,
+    2,
+    2,
+    3,
+    2,
+    2,
+    1,
+    2
+   ],
+   "lastRun": 74
+  },
+  "test/gitlab/run.test.ts › runOn GitLab > learns from the default branch, then tells a merge request which failures are its fault": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    2681,
+    2055,
+    1688,
+    2079,
+    2060,
+    1763,
+    2041,
+    1687,
+    2033,
+    2210
+   ],
+   "lastRun": 74
+  },
+  "test/gitlab/run.test.ts › runOn GitLab > opens and closes an issue per flaky test": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    665,
+    722,
+    580,
+    741,
+    708,
+    476,
+    740,
+    597,
+    746,
+    769
+   ],
+   "lastRun": 74
+  },
+  "test/gitlab/run.test.ts › runOn GitLab > falls back to the job token, and explains what it cannot do": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    291,
+    348,
+    277,
+    343,
+    323,
+    259,
+    333,
+    277,
+    337,
+    354
+   ],
+   "lastRun": 74
+  },
+  "test/gitlab/run.test.ts › runOn GitLab > does not record merge requests from forks": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    34,
+    41,
+    31,
+    44,
+    43,
+    27,
+    45,
+    33,
+    42,
+    43
+   ],
+   "lastRun": 74
+  },
+  "test/gitlab/run.test.ts › runOn GitLab > names variables in errors": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    34,
+    12,
+    9,
+    11,
+    16,
+    8,
+    18,
+    9,
+    11,
+    15
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › templates/notmyfault.gitlab-ci.yml > downloads the bundle committed in dist/": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › documentation links > resolves every relative link in docs/gitlab.md": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    3,
+    3,
+    3,
+    4,
+    4,
+    2,
+    4,
+    3,
+    3,
+    4
+   ],
+   "lastRun": 74
+  },
+  "test/gitlab/run.test.ts › runOn GitLab > tells since which commit and merge request a test has been failing": {
+   "outcomes": "ppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    423,
+    554,
+    413,
+    572,
+    538,
+    456,
+    544,
+    435,
+    527,
+    544
+   ],
+   "lastRun": 74
+  },
+  "test/history.test.ts › recordRun > remembers where a failure streak on tracked branches started, until the test passes": {
+   "outcomes": "ppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    2,
+    1,
+    2,
+    2,
+    1,
+    2,
+    1,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/history.test.ts › recordRun > does not guess where a streak recorded before failingSince started": {
+   "outcomes": "ppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/html-report.test.ts › renderSuitePage > says since which commit an already failing test fails": {
+   "outcomes": "ppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    6,
+    9,
+    6,
+    10,
+    9,
+    5,
+    15,
+    10,
+    8,
+    8
+   ],
+   "lastRun": 74
+  },
+  "test/main.test.ts › run > tells since which commit and pull request a test has been failing": {
+   "outcomes": "ppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1476,
+    1424,
+    1149,
+    1451,
+    1370,
+    980,
+    1423,
+    1144,
+    1441,
+    1490
+   ],
+   "lastRun": 74
+  },
+  "test/report.test.ts › renderComment > says since which commit and change a test has been failing": {
+   "outcomes": "ppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2,
+    1,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/analyze.test.ts › missing tests > lists tests of the latest tracked run missing from this one, by file or suite": {
+   "outcomes": "pppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    9,
+    13,
+    8,
+    12,
+    11,
+    5,
+    14,
+    15,
+    13,
+    15
+   ],
+   "lastRun": 74
+  },
+  "test/analyze.test.ts › missing tests > finds nothing without a tracked run": {
+   "outcomes": "pppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › action.yml > reads and documents the missing-tests input": {
+   "outcomes": "pppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › action.yml > sets and documents the missing output": {
+   "outcomes": "pppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/main.test.ts › run > warns about tests that ran on main but not in a pull request": {
+   "outcomes": "pppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    238,
+    301,
+    208,
+    311,
+    245,
+    159,
+    426,
+    235,
+    251,
+    272
+   ],
+   "lastRun": 74
+  },
+  "test/report.test.ts › renderComment > lists missing tests, a whole file on one line": {
+   "outcomes": "pppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › templates/notmyfault.gitlab-ci.yml > checks the checksum when one is set, before running the file": {
+   "outcomes": "pppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 71
+  },
+  "test/docs.test.ts › action.yml > reads and documents the check input": {
+   "outcomes": "ppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › action.yml > reads and documents the check-name input": {
+   "outcomes": "ppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/gitlab/run.test.ts › runOn GitLab > ignores checks, which GitLab does not have": {
+   "outcomes": "ppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    95,
+    126,
+    107,
+    115,
+    121,
+    76,
+    122,
+    113,
+    115,
+    116
+   ],
+   "lastRun": 74
+  },
+  "test/main.test.ts › run > reports the run as a check of its own, failing only on failures not tolerated": {
+   "outcomes": "ppppfpppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "failedOn": [
+    "2263209f4e88"
+   ],
+   "errors": [
+    "28aa2800d3cf"
+   ],
+   "lastFailure": "2026-09-17",
+   "durations": [
+    1536,
+    1743,
+    1642,
+    1801,
+    1715,
+    976,
+    1674,
+    1537,
+    1846,
+    1925
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › action.yml > reads and documents the rerun-flaky input": {
+   "outcomes": "pppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/gitlab/run.test.ts › runOn GitLab > starts a new pipeline, once per commit, when only flaky tests stand in the way": {
+   "outcomes": "pppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    4343,
+    1907,
+    1558,
+    1939,
+    1857,
+    1072,
+    1906,
+    1552,
+    2690,
+    2021
+   ],
+   "lastRun": 74
+  },
+  "test/main.test.ts › run > points to the companion workflow when asked to re-run on GitHub": {
+   "outcomes": "pppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1392,
+    1020,
+    839,
+    1059,
+    1063,
+    635,
+    1916,
+    779,
+    1008,
+    1027
+   ],
+   "lastRun": 74
+  },
+  "test/codeowners.test.ts › CODEOWNERS > follows the GitHub syntax: the last matching pattern wins": {
+   "outcomes": "ppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    3,
+    5,
+    2,
+    4,
+    4,
+    3,
+    4,
+    3,
+    5,
+    4
+   ],
+   "lastRun": 74
+  },
+  "test/codeowners.test.ts › CODEOWNERS > combines the GitLab sections, with their default owners": {
+   "outcomes": "ppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › action.yml > reads and documents the mention-owners input": {
+   "outcomes": "ppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/main.test.ts › run > mentions the owners of a flaky test in its issue, from CODEOWNERS": {
+   "outcomes": "ppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    445,
+    502,
+    413,
+    910,
+    848,
+    641,
+    848,
+    661,
+    846,
+    1730
+   ],
+   "lastRun": 74
+  },
+  "test/junit.test.ts › location hints > are collected for tests that ran, with file references for failures only": {
+   "outcomes": "pppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/history.test.ts › recordRun > remembers the total test time of the last tracked runs": {
+   "outcomes": "ppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    0,
+    1,
+    2,
+    2,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/html-report.test.ts › renderSuitePage > puts the costliest tests first, with the time they cost": {
+   "outcomes": "ppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    1,
+    1,
+    1,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/report.test.ts › renderSummary > ranks unreliable tests by what they cost, when durations tell": {
+   "outcomes": "ppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    1,
+    0,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › documentation links > resolves every relative link in docs/forgejo.md": {
+   "outcomes": "pppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/forgejo/run.test.ts › run on Forgejo Actions > comments, opens issues with label ids, and finds the pull request of a commit": {
+   "outcomes": "pppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1564,
+    1238,
+    969,
+    1250,
+    1201,
+    842,
+    1229,
+    952,
+    1179,
+    1404
+   ],
+   "lastRun": 74
+  },
+  "test/forgejo/run.test.ts › run on Forgejo Actions > is detected before GitHub Actions, whose variables Forgejo and Gitea also set": {
+   "outcomes": "pppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    9,
+    12,
+    8,
+    10,
+    11,
+    7,
+    9,
+    8,
+    11,
+    11
+   ],
+   "lastRun": 74
+  },
+  "test/dashboard.test.ts › runDashboard > ranks the unreliable tests of several repositories together": {
+   "outcomes": "pppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    299,
+    286,
+    218,
+    290,
+    269,
+    196,
+    271,
+    223,
+    272,
+    295
+   ],
+   "lastRun": 74
+  },
+  "test/dashboard.test.ts › runDashboard > fails when no repository could be read, or none is given": {
+   "outcomes": "pppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    15,
+    18,
+    13,
+    17,
+    16,
+    20,
+    19,
+    14,
+    18,
+    19
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › documentation links > resolves every relative link in docs/dashboard.md": {
+   "outcomes": "pppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    3,
+    1,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › dashboard/action.yml > reads and documents the repositories input": {
+   "outcomes": "pppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › dashboard/action.yml > reads and documents the token input": {
+   "outcomes": "pppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › dashboard/action.yml > reads and documents the history-branch input": {
+   "outcomes": "pppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › dashboard/action.yml > reads and documents the output input": {
+   "outcomes": "pppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › dashboard/action.yml > reads and documents the title input": {
+   "outcomes": "pppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › dashboard/action.yml > reads and documents the limit input": {
+   "outcomes": "pppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › dashboard/action.yml > runs the bundle built for it": {
+   "outcomes": "pppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/gitlab/context.test.ts › detectPlatform > recognizes GitLab, and falls back to any other CI system": {
+   "outcomes": "pppppppppppppppppppppppppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    11,
+    20,
+    15,
+    18,
+    13,
+    12,
+    18,
+    12,
+    14,
+    19
+   ],
+   "lastRun": 74
+  },
+  "test/dist.test.ts › dist/notmyfault.mjs > runs in any other CI system, from git and NOTMYFAULT_ variables": {
+   "outcomes": "ppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    278,
+    332,
+    261,
+    339,
+    322,
+    239,
+    316,
+    285,
+    330,
+    337
+   ],
+   "lastRun": 74
+  },
+  "test/dist.test.ts › dist/notmyfault.mjs > explains what it needs outside of a git clone": {
+   "outcomes": "ppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    46,
+    57,
+    45,
+    55,
+    58,
+    42,
+    59,
+    57,
+    56,
+    56
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › documentation links > resolves every relative link in docs/any-ci.md": {
+   "outcomes": "ppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    1,
+    1,
+    2,
+    1,
+    1,
+    2,
+    1,
+    1,
+    2
+   ],
+   "lastRun": 74
+  },
+  "test/generic/context.test.ts › readGenericContext > reads a Jenkins multibranch pull request build": {
+   "outcomes": "ppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    3,
+    5,
+    3,
+    4,
+    5,
+    3,
+    5,
+    4,
+    4,
+    4
+   ],
+   "lastRun": 74
+  },
+  "test/generic/context.test.ts › readGenericContext > reads a CircleCI branch build, and Buildkite without a pull request": {
+   "outcomes": "ppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/generic/context.test.ts › readGenericContext > falls back to git and NOTMYFAULT_ variables, and knows a developer's machine": {
+   "outcomes": "ppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    2,
+    1,
+    2,
+    2,
+    2,
+    2,
+    1,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/generic/context.test.ts › webUrl > reads HTTPS and SSH remotes": {
+   "outcomes": "ppppppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › templates/notmyfault.gitlab-ci.yml > publishes the pages of the history branch with GitLab Pages": {
+   "outcomes": "pppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › templates/notmyfault/template.yml > uses and documents the job-name input": {
+   "outcomes": "ppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › templates/notmyfault/template.yml > uses and documents the stage input": {
+   "outcomes": "ppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › templates/notmyfault/template.yml > uses and documents the needs input": {
+   "outcomes": "ppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › templates/notmyfault/template.yml > uses and documents the junit input": {
+   "outcomes": "ppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › templates/notmyfault/template.yml > uses and documents the key input": {
+   "outcomes": "ppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › templates/notmyfault/template.yml > uses and documents the mode input": {
+   "outcomes": "ppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › templates/notmyfault/template.yml > uses and documents the tolerate input": {
+   "outcomes": "ppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › templates/notmyfault/template.yml > uses and documents the flaky-issues input": {
+   "outcomes": "ppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › templates/notmyfault/template.yml > uses and documents the image input": {
+   "outcomes": "ppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › templates/notmyfault/template.yml > downloads the bundle of the commit of its version": {
+   "outcomes": "ppppppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/analyze.test.ts › missing tests > marks the tests whose file the change deletes": {
+   "outcomes": "ppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    2,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    1,
+    2
+   ],
+   "lastRun": 74
+  },
+  "test/main.test.ts › run > tells tests deleted with their file from tests that stopped running": {
+   "outcomes": "ppppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    310,
+    264,
+    323,
+    300,
+    309,
+    303,
+    239,
+    306,
+    310
+   ],
+   "lastRun": 74
+  },
+  "test/main.test.ts › run > follows a test moved to another file on the tracked branch": {
+   "outcomes": "pppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1016,
+    1240,
+    1155,
+    956,
+    1159,
+    900,
+    1160,
+    1186
+   ],
+   "lastRun": 74
+  },
+  "test/renames.test.ts › detectRenames > follows tests moved to another file, keeping their name": {
+   "outcomes": "pppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    7,
+    11,
+    12,
+    7,
+    11,
+    11,
+    10,
+    10
+   ],
+   "lastRun": 74
+  },
+  "test/renames.test.ts › detectRenames > leaves a move alone when the name is not the only clue": {
+   "outcomes": "pppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    1,
+    1,
+    0,
+    1,
+    1,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › action.yml > reads and documents the assign-owners input": {
+   "outcomes": "ppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/flaky-issues.test.ts › planFlakyIssues > assigns the owners who are users when asked, and mentions the teams": {
+   "outcomes": "ppppppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    6,
+    7,
+    3,
+    6,
+    5,
+    6,
+    6
+   ],
+   "lastRun": 74
+  },
+  "test/codeowners.test.ts › CODEOWNERS > matches a crafted pattern from a pull request without stalling the job": {
+   "outcomes": "ppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    2,
+    2,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/codeowners.test.ts › CODEOWNERS > leaves out patterns and paths too long to be real": {
+   "outcomes": "ppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    1,
+    2
+   ],
+   "lastRun": 74
+  },
+  "test/dashboard.test.ts › runDashboard > never publishes credentials given in a repository URL, and stays in the workspace": {
+   "outcomes": "ppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    94,
+    100,
+    101
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › templates/notmyfault.gitlab-ci.yml > checks the checksum of the file it downloads, before running it": {
+   "outcomes": "ppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    0,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › templates/notmyfault.gitlab-ci.yml > is pinned to the version it was built with": {
+   "outcomes": "ppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/git-store.test.ts › splitCredentials > takes the user name and password out of a remote URL": {
+   "outcomes": "ppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    10,
+    13,
+    13
+   ],
+   "lastRun": 74
+  },
+  "test/github/api.test.ts › samePage > keeps pagination on the API host": {
+   "outcomes": "ppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    2,
+    2,
+    3
+   ],
+   "lastRun": 74
+  },
+  "test/github/api.test.ts › samePage > refuses a host that only looks like the API host": {
+   "outcomes": "ppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/gitlab/api.test.ts › GitLabClient > never sends the token to a host it was redirected to": {
+   "outcomes": "ppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    36,
+    44,
+    42
+   ],
+   "lastRun": 74
+  },
+  "test/gitlab/api.test.ts › GitLabClient > follows a redirect that stays on the same GitLab": {
+   "outcomes": "ppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    24,
+    24,
+    18
+   ],
+   "lastRun": 74
+  },
+  "test/gitlab/io.test.ts › GitLabIO > replaces masked secrets in everything it writes": {
+   "outcomes": "ppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/history.test.ts › recordRun > treats a test named __proto__ as a test, not as the prototype of every object": {
+   "outcomes": "ppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    2,
+    2,
+    2
+   ],
+   "lastRun": 74
+  },
+  "test/history.test.ts › parseHistory > keeps of a stored test only the fields it writes itself": {
+   "outcomes": "ppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/history.test.ts › parseHistory > reads a test named __proto__ as a test, and leaves every other object alone": {
+   "outcomes": "ppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/history.test.ts › the size of the history > forgets the tests seen longest ago past the cap": {
+   "outcomes": "ppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    115,
+    122,
+    123
+   ],
+   "lastRun": 74
+  },
+  "test/html-report.test.ts › renderSuitePage > renders a history written by someone else as text, never as markup or a script": {
+   "outcomes": "ppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/junit.test.ts › parseJUnit > strips terminal escapes and control characters from names and messages": {
+   "outcomes": "ppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    1,
+    1
+   ],
+   "lastRun": 74
+  },
+  "test/junit.test.ts › parseJUnit > cuts names longer than any real test name": {
+   "outcomes": "ppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/main.test.ts › run > never republishes the token a test printed in its failure": {
+   "outcomes": "ppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    177,
+    228,
+    236
+   ],
+   "lastRun": 74
+  },
+  "test/quarantine.test.ts › quarantine entries > matches a crafted pattern from the repository without stalling the job": {
+   "outcomes": "ppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    0,
+    0,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/report.test.ts › renderComment > does not let a stored link run a script or break out of the comment": {
+   "outcomes": "ppp",
+   "lastSeen": "2026-09-18",
+   "durations": [
+    1,
+    1,
+    0
+   ],
+   "lastRun": 74
+  },
+  "test/docs.test.ts › templates/notmyfault.gitlab-ci.yml > keeps every command a string GitLab can read": {
+   "outcomes": "p",
+   "lastSeen": "2026-09-18",
+   "lastRun": 74,
+   "durations": [
+    1
+   ]
+  }
+ }
+}
